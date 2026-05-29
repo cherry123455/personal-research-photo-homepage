@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Small coastal town at blue hour">
+  <defs>
+    <linearGradient id="evening" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#cbdde2"/>
+      <stop offset="0.52" stop-color="#dfe9e8"/>
+      <stop offset="1" stop-color="#9fb7b8"/>
+    </linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency="0.74" numOctaves="3" seed="55"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.13"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#evening)"/>
+  <path d="M0 470 C210 430 400 438 600 472 C808 508 1010 486 1200 430 V900 H0 Z" fill="#a8c4c4"/>
+  <path d="M0 642 L1200 586 V900 H0 Z" fill="#d6c5ad"/>
+  <g>
+    <polygon points="84,430 248,370 412,430 412,668 84,686" fill="#eef3ef"/>
+    <polygon points="248,370 412,430 84,430" fill="#78918e"/>
+    <rect x="320" y="492" width="48" height="58" fill="#d89a78" opacity="0.88"/>
+    <polygon points="468,458 620,400 770,456 770,640 468,658" fill="#e9efeb"/>
+    <polygon points="620,400 770,456 468,458" fill="#6f8888"/>
+    <rect x="540" y="512" width="44" height="54" fill="#f1c58d"/>
+  </g>
+  <path d="M860 620 C888 572 952 572 982 622" fill="none" stroke="#344641" stroke-width="8"/>
+  <circle cx="860" cy="622" r="18" fill="none" stroke="#344641" stroke-width="7"/>
+  <circle cx="984" cy="622" r="18" fill="none" stroke="#344641" stroke-width="7"/>
+  <path d="M904 588 L932 622 L958 588" fill="none" stroke="#344641" stroke-width="6"/>
+  <rect width="1200" height="900" filter="url(#grain)" opacity="0.34"/>
+</svg>
