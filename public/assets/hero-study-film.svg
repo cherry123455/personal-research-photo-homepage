@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Sunlit research desk with camera and notebook">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef6f3"/>
+      <stop offset="0.55" stop-color="#f8f7ef"/>
+      <stop offset="1" stop-color="#dfecef"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence baseFrequency="0.72" numOctaves="3" seed="12" type="fractalNoise"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.13"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect x="970" width="630" height="1000" fill="#d7e7e2"/>
+  <rect x="1045" y="92" width="360" height="470" rx="8" fill="#f8fbf8" opacity="0.72"/>
+  <rect x="1095" y="140" width="62" height="376" fill="#c7ddd6" opacity="0.72"/>
+  <rect x="1212" y="140" width="62" height="376" fill="#c7ddd6" opacity="0.72"/>
+  <path d="M0 735 C270 660 610 710 860 640 C1110 570 1360 610 1600 520 V1000 H0 Z" fill="#efe4d4"/>
+  <path d="M0 820 C330 760 660 795 930 725 C1170 663 1400 705 1600 648 V1000 H0 Z" fill="#decdb6" opacity="0.72"/>
+  <rect x="514" y="525" width="418" height="270" rx="12" fill="#fbfaf4" transform="rotate(-6 723 660)"/>
+  <path d="M610 625 C690 565 738 714 822 642" fill="none" stroke="#7da094" stroke-width="7" stroke-linecap="round"/>
+  <path d="M628 691 C724 632 786 758 860 696" fill="none" stroke="#c97865" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+  <rect x="888" y="604" width="236" height="134" rx="18" fill="#2c3a36"/>
+  <rect x="922" y="574" width="86" height="48" rx="10" fill="#41564f"/>
+  <circle cx="1008" cy="671" r="48" fill="#111815"/>
+  <circle cx="1008" cy="671" r="31" fill="#5f7670"/>
+  <circle cx="1008" cy="671" r="13" fill="#e7eee8"/>
+  <rect x="1116" y="631" width="42" height="28" rx="8" fill="#c97865"/>
+  <g fill="#82a498" opacity="0.9">
+    <path d="M1300 620 C1375 558 1420 506 1448 410 C1470 522 1432 596 1360 665 Z"/>
+    <path d="M1400 660 C1455 614 1496 592 1552 586 C1515 650 1474 686 1408 704 Z"/>
+    <path d="M1260 666 C1216 602 1190 548 1192 474 C1245 526 1280 590 1300 682 Z"/>
+  </g>
+  <rect x="356" y="674" width="126" height="74" rx="8" fill="#d8eee7" opacity="0.9"/>
+  <rect x="374" y="693" width="90" height="8" fill="#86a99d"/>
+  <rect x="374" y="715" width="68" height="8" fill="#c97865" opacity="0.7"/>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.28"/>
+</svg>
